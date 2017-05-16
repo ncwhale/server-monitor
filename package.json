@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/ncwhale/server-monitor#readme",
   "dependencies": {
+    "bluebird": "^3.5.0",
     "koa": "^2.2.0",
     "sequelize": "^3.30.4",
     "sqlite": "^2.7.0"
