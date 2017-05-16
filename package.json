@@ -6,10 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ncwhale/server-monitor.git"
-  },
+  "repository": "git+https://github.com/ncwhale/server-monitor.git",
   "keywords": [
     "node",
     "server",
@@ -20,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/ncwhale/server-monitor/issues"
   },
-  "homepage": "https://github.com/ncwhale/server-monitor#readme"
+  "homepage": "https://github.com/ncwhale/server-monitor#readme",
+  "dependencies": {
+    "koa": "^2.2.0",
+    "sequelize": "^3.30.4",
+    "sqlite": "^2.7.0"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^2.7.0"
+  }
 }
