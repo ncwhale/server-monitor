@@ -4,7 +4,8 @@
   "description": "A simple server status monitor service.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "client": "client.js",
+    "test": "exit 0"
   },
   "repository": "git+https://github.com/ncwhale/server-monitor.git",
   "keywords": [
